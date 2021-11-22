@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css">
+	<script type="text/javascript" src="Calculator.js">
+	</script>
+    <title>Calculator</title>
+</head>
+<body>
+    <div class = container>
+    <div class = title >Calculator</div>
+	<table>
+		<tr>
+			<td colspan="3"><input type="text" id="result"/></td>
+			<td><input type="button" value="c" onclick="clr()"/> </td>
+		</tr>
+		<tr>
+			<td><input type="button" value="9" onclick="num('9')"/> </td>
+			<td><input type="button" value="8" onclick="num('8')"/> </td>
+			<td><input type="button" value="7" onclick="num('7')"/> </td>
+			<td><input type="button" value="/" onclick="num('/')"/> </td>
+		</tr>
+		<tr>
+			<td><input type="button" value="6" onclick="num('6')"/> </td>
+			<td><input type="button" value="5" onclick="num('5')"/> </td>
+			<td><input type="button" value="4" onclick="num('4')"/> </td>
+			<td><input type="button" value="-" onclick="num('-')"/> </td>
+		</tr>
+		<tr>
+			<td><input type="button" value="3" onclick="num('3')"/> </td>
+			<td><input type="button" value="2" onclick="num('2')"/> </td>
+			<td><input type="button" value="1" onclick="num('1')"/> </td>
+			<td><input type="button" value="+" onclick="num('+')"/> </td>
+		</tr>
+		<tr>
+			<td><input type="button" value="." onclick="num('.')"/> </td>
+			<td><input type="button" value="0" onclick="num('0')"/> </td>
+			<td><input type="button" value="=" onclick="solve()"/> </td>
+			<td><input type="button" value="*" onclick="num('*')"/> </td>
+		</tr>
+	</table>
+</div>
+</body>
+</html>
